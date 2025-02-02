@@ -42,4 +42,7 @@ NOTE: change the permission of script "start-server.sh"
 sudo chmod +x start-server.sh
 ```
 
+SNAPSHOTS
+
+
   
