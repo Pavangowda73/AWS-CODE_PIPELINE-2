@@ -44,5 +44,8 @@ sudo chmod +x start-server.sh
 
 SNAPSHOTS
 
+<img src="images/Screenshot from 2025-02-02 12-21-47.png" alt="Description of image">
+
+
 
   
