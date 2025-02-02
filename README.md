@@ -1,7 +1,7 @@
 # AWS-CODE_PIPELINE-2
 
 # user data
-``bash  
+```bash  
 
 sudo yum update -y
 
