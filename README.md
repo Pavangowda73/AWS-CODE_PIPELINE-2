@@ -42,7 +42,8 @@ NOTE: change the permission of script "start-server.sh"
 sudo chmod +x start-server.sh
 ```
 
-SNAPSHOTS
+
+# SNAPSHOTS
 
 <img src="images/Screenshot from 2025-02-02 12-21-47.png" alt="Description of image">
 
