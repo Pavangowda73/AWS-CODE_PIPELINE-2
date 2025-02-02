@@ -3,18 +3,15 @@
 # user data
 ```bash  
 
-sudo yum update -y
-
-sudo yum install -y ruby wget
-
+#!/bin/bash
+sudo yum -y update
+sudo yum -y install ruby
+sudo yum -y install wget
 cd /home/ec2-user
-
-wget https://github.com/aws/aws-codedeploy-agent/releases/download/latest/codedeploy-agent-*.rpm
-
-sudo rpm -Uvh codedeploy-agent-*.rpm
-
-sudo service codedeploy-agent start
-
-sudo systemctl enable codedeploy-agent
+wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
+sudo chmod +x ./install
+sudo ./install auto
+sudo yum install -y python-pip
+sudo pip install awscli
 
 ```
